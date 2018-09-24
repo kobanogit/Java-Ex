@@ -21,11 +21,11 @@ public class SendEmailFromGmailServer {
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.port", "465");
 
-		System.out.println("Gmail login :");
+		System.out.println("Google login :");
 		try(Scanner scLogin = new Scanner(System.in)){
 			String login = scLogin.nextLine();
 			
-			System.out.println("Gmail Password :");
+			System.out.println("Google Password :");
 			try(Scanner scPwd = new Scanner(System.in)){
 				String password = scPwd.nextLine();
 				
